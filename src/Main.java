@@ -5,5 +5,12 @@ public class Main {
 
         System.out.println("Pair 1: " + pair1);
         System.out.println("Pair 2: " + pair2);
+        System.out.println("\n--------------- Using Static Factory Method ----------------\n");
+
+        Pair<String, String> pair3 = Pair.create("Status", "Active");
+        Pair<Integer, Double> pair4 = Pair.create(1, 99.99);
+
+        System.out.println("Pair 3: " + pair3);
+        System.out.println("Pair 4: " + pair4);
     }
 }
