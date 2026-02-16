@@ -30,7 +30,7 @@ public class Main {
         System.out.println("pair5 hashCode: " + pair5.hashCode());
         System.out.println("Same hash code: " + (pair1.hashCode() == pair5.hashCode()));
 
-        //  // Test null key validation
+         // Test null key validation
         try {
             Pair<String, Integer> invalidPair = new Pair<>(null, 100);
         } catch (IllegalArgumentException e) {
