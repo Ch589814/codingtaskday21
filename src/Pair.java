@@ -12,10 +12,12 @@ public class Pair<K, V> {
         this.value = value;
     }
 
+// factory method
     public static <K, V> Pair<K, V> create(K key, V value) {
         return new Pair<>(key, value);
     }
 
+  // get method
     public K getKey() {
         return key;
     }
